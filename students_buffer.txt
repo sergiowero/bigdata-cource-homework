@@ -1,0 +1,413 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     students-weka.filters.unsupervised.attribute.Remove-R9,31-33-weka.filters.unsupervised.attribute.Remove-R7-8-weka.filters.unsupervised.attribute.Remove-R10-12-weka.filters.unsupervised.attribute.Remove-R18-24-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Instances:    351
+Attributes:   17
+              guardian
+              reason
+              famsup
+              internet
+              Fjob
+              sex
+              activities
+              address
+              schoolsup
+              nursery
+              romantic
+              famsize
+              higher
+              Pstatus
+              school
+              age
+              paid
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1   1:course   1:course       0.665 
+        2   1:course 4:reputation   +   0.499 
+        3   1:course   1:course       0.991 
+        4   1:course     3:home   +   0.991 
+        5   1:course 4:reputation   +   0.991 
+        6   1:course   1:course       0.498 
+        7   1:course   1:course       0.991 
+        8   1:course     3:home   +   0.991 
+        9   1:course    2:other   +   0.991 
+       10   1:course 4:reputation   +   0.991 
+       11   1:course   1:course       0.991 
+       12   1:course   1:course       0.333 
+       13   1:course 4:reputation   +   0.665 
+       14   1:course 4:reputation   +   0.991 
+       15     3:home     3:home       0.995 
+       16     3:home     3:home       0.991 
+       17     3:home   1:course   +   0.991 
+       18     3:home 4:reputation   +   0.991 
+       19     3:home 4:reputation   +   0.665 
+       20     3:home 4:reputation   +   0.991 
+       21     3:home     3:home       0.665 
+       22     3:home   1:course   +   0.991 
+       23     3:home   1:course   +   0.498 
+       24 4:reputation    2:other   +   0.991 
+       25 4:reputation   1:course   +   0.991 
+       26 4:reputation 4:reputation       0.499 
+       27 4:reputation   1:course   +   0.991 
+       28 4:reputation   1:course   +   0.991 
+       29 4:reputation 4:reputation       0.991 
+       30 4:reputation    2:other   +   0.995 
+       31 4:reputation   1:course   +   0.624 
+       32 4:reputation 4:reputation       0.991 
+       33 4:reputation     3:home   +   0.991 
+       34    2:other   1:course   +   0.991 
+       35    2:other 4:reputation   +   0.991 
+       36    2:other    2:other       0.991 
+        1   1:course    2:other   +   0.991 
+        2   1:course     3:home   +   0.991 
+        3   1:course     3:home   +   0.498 
+        4   1:course   1:course       0.991 
+        5   1:course 4:reputation   +   0.991 
+        6   1:course   1:course       0.498 
+        7   1:course 4:reputation   +   0.991 
+        8   1:course   1:course       0.991 
+        9   1:course   1:course       0.665 
+       10   1:course     3:home   +   0.995 
+       11   1:course   1:course       0.991 
+       12   1:course     3:home   +   0.991 
+       13   1:course     3:home   +   0.995 
+       14   1:course 4:reputation   +   0.991 
+       15     3:home   1:course   +   0.991 
+       16     3:home   1:course   +   0.995 
+       17     3:home    2:other   +   0.991 
+       18     3:home   1:course   +   0.498 
+       19     3:home   1:course   +   0.991 
+       20     3:home   1:course   +   0.991 
+       21     3:home   1:course   +   0.991 
+       22     3:home   1:course   +   0.498 
+       23     3:home     3:home       0.995 
+       24 4:reputation     3:home   +   0.991 
+       25 4:reputation 4:reputation       0.991 
+       26 4:reputation     3:home   +   0.991 
+       27 4:reputation   1:course   +   0.991 
+       28 4:reputation    2:other   +   0.333 
+       29 4:reputation 4:reputation       0.991 
+       30 4:reputation   1:course   +   0.665 
+       31 4:reputation 4:reputation       0.991 
+       32 4:reputation     3:home   +   0.991 
+       33 4:reputation   1:course   +   0.991 
+       34    2:other   1:course   +   0.498 
+       35    2:other 4:reputation   +   0.991 
+        1   1:course     3:home   +   0.991 
+        2   1:course   1:course       0.991 
+        3   1:course 4:reputation   +   0.499 
+        4   1:course    2:other   +   0.991 
+        5   1:course   1:course       0.665 
+        6   1:course 4:reputation   +   0.991 
+        7   1:course   1:course       0.498 
+        8   1:course 4:reputation   +   0.991 
+        9   1:course   1:course       0.333 
+       10   1:course   1:course       0.995 
+       11   1:course     3:home   +   0.991 
+       12   1:course     3:home   +   0.991 
+       13   1:course     3:home   +   0.991 
+       14     3:home     3:home       0.498 
+       15     3:home   1:course   +   0.498 
+       16     3:home     3:home       0.991 
+       17     3:home   1:course   +   0.991 
+       18     3:home   1:course   +   0.991 
+       19     3:home     3:home       0.498 
+       20     3:home     3:home       0.991 
+       21     3:home     3:home       0.665 
+       22     3:home   1:course   +   0.991 
+       23     3:home   1:course   +   0.991 
+       24 4:reputation 4:reputation       0.499 
+       25 4:reputation   1:course   +   0.991 
+       26 4:reputation     3:home   +   0.991 
+       27 4:reputation   1:course   +   0.991 
+       28 4:reputation     3:home   +   0.498 
+       29 4:reputation     3:home   +   0.665 
+       30 4:reputation   1:course   +   0.498 
+       31 4:reputation     3:home   +   0.991 
+       32 4:reputation     3:home   +   0.991 
+       33 4:reputation   1:course   +   0.991 
+       34    2:other   1:course   +   0.498 
+       35    2:other    2:other       0.991 
+        1   1:course     3:home   +   0.748 
+        2   1:course 4:reputation   +   0.991 
+        3   1:course   1:course       0.333 
+        4   1:course     3:home   +   0.995 
+        5   1:course     3:home   +   0.498 
+        6   1:course   1:course       0.995 
+        7   1:course     3:home   +   0.991 
+        8   1:course   1:course       0.333 
+        9   1:course   1:course       0.991 
+       10   1:course     3:home   +   0.498 
+       11   1:course   1:course       0.991 
+       12   1:course 4:reputation   +   0.991 
+       13   1:course   1:course       0.991 
+       14     3:home   1:course   +   0.991 
+       15     3:home   1:course   +   0.991 
+       16     3:home 4:reputation   +   0.991 
+       17     3:home   1:course   +   0.748 
+       18     3:home     3:home       0.498 
+       19     3:home     3:home       0.991 
+       20     3:home     3:home       0.991 
+       21     3:home     3:home       0.991 
+       22     3:home 4:reputation   +   0.991 
+       23     3:home     3:home       0.991 
+       24 4:reputation   1:course   +   0.991 
+       25 4:reputation    2:other   +   0.991 
+       26 4:reputation     3:home   +   0.991 
+       27 4:reputation 4:reputation       0.991 
+       28 4:reputation   1:course   +   0.333 
+       29 4:reputation   1:course   +   0.991 
+       30 4:reputation    2:other   +   0.991 
+       31 4:reputation     3:home   +   0.991 
+       32 4:reputation   1:course   +   0.991 
+       33 4:reputation 4:reputation       0.991 
+       34    2:other   1:course   +   0.748 
+       35    2:other 4:reputation   +   0.991 
+        1   1:course   1:course       0.991 
+        2   1:course   1:course       0.991 
+        3   1:course     3:home   +   0.991 
+        4   1:course    2:other   +   0.498 
+        5   1:course   1:course       0.991 
+        6   1:course 4:reputation   +   0.995 
+        7   1:course 4:reputation   +   0.991 
+        8   1:course     3:home   +   0.991 
+        9   1:course   1:course       0.665 
+       10   1:course     3:home   +   0.498 
+       11   1:course     3:home   +   0.991 
+       12   1:course   1:course       0.991 
+       13   1:course 4:reputation   +   0.991 
+       14     3:home     3:home       0.991 
+       15     3:home   1:course   +   0.995 
+       16     3:home   1:course   +   0.991 
+       17     3:home     3:home       0.498 
+       18     3:home   1:course   +   0.991 
+       19     3:home   1:course   +   0.666 
+       20     3:home   1:course   +   0.498 
+       21     3:home 4:reputation   +   0.665 
+       22     3:home 4:reputation   +   0.991 
+       23     3:home 4:reputation   +   0.991 
+       24 4:reputation     3:home   +   0.499 
+       25 4:reputation   1:course   +   0.498 
+       26 4:reputation     3:home   +   0.991 
+       27 4:reputation 4:reputation       0.995 
+       28 4:reputation 4:reputation       0.991 
+       29 4:reputation   1:course   +   0.498 
+       30 4:reputation   1:course   +   0.333 
+       31 4:reputation   1:course   +   0.498 
+       32 4:reputation    2:other   +   0.498 
+       33 4:reputation   1:course   +   0.991 
+       34    2:other     3:home   +   0.498 
+       35    2:other     3:home   +   0.991 
+        1   1:course     3:home   +   0.991 
+        2   1:course     3:home   +   0.991 
+        3   1:course   1:course       0.991 
+        4   1:course   1:course       0.991 
+        5   1:course     3:home   +   0.498 
+        6   1:course     3:home   +   0.991 
+        7   1:course   1:course       0.498 
+        8   1:course     3:home   +   0.991 
+        9   1:course     3:home   +   0.991 
+       10   1:course   1:course       0.991 
+       11   1:course 4:reputation   +   0.991 
+       12   1:course   1:course       0.991 
+       13   1:course   1:course       0.991 
+       14     3:home     3:home       0.991 
+       15     3:home     3:home       0.991 
+       16     3:home   1:course   +   0.498 
+       17     3:home 4:reputation   +   0.991 
+       18     3:home   1:course   +   0.665 
+       19     3:home   1:course   +   0.995 
+       20     3:home   1:course   +   0.991 
+       21     3:home   1:course   +   0.991 
+       22     3:home     3:home       0.991 
+       23     3:home   1:course   +   0.498 
+       24 4:reputation     3:home   +   0.991 
+       25 4:reputation 4:reputation       0.991 
+       26 4:reputation     3:home   +   0.991 
+       27 4:reputation   1:course   +   0.991 
+       28 4:reputation 4:reputation       0.991 
+       29 4:reputation 4:reputation       0.991 
+       30 4:reputation    2:other   +   0.428 
+       31 4:reputation   1:course   +   0.991 
+       32 4:reputation   1:course   +   0.991 
+       33    2:other    2:other       0.991 
+       34    2:other 4:reputation   +   0.499 
+       35    2:other 4:reputation   +   0.991 
+        1   1:course     3:home   +   0.498 
+        2   1:course   1:course       0.991 
+        3   1:course   1:course       0.991 
+        4   1:course   1:course       0.498 
+        5   1:course   1:course       0.991 
+        6   1:course   1:course       0.428 
+        7   1:course   1:course       0.991 
+        8   1:course 4:reputation   +   0.998 
+        9   1:course 4:reputation   +   0.665 
+       10   1:course 4:reputation   +   0.995 
+       11   1:course 4:reputation   +   0.991 
+       12   1:course   1:course       0.991 
+       13   1:course    2:other   +   0.991 
+       14     3:home   1:course   +   0.991 
+       15     3:home     3:home       0.991 
+       16     3:home   1:course   +   0.991 
+       17     3:home 4:reputation   +   0.991 
+       18     3:home    2:other   +   0.991 
+       19     3:home   1:course   +   0.991 
+       20     3:home   1:course   +   0.991 
+       21     3:home   1:course   +   0.991 
+       22     3:home     3:home       0.499 
+       23     3:home   1:course   +   0.498 
+       24 4:reputation    2:other   +   0.991 
+       25 4:reputation   1:course   +   0.991 
+       26 4:reputation     3:home   +   0.498 
+       27 4:reputation     3:home   +   0.991 
+       28 4:reputation 4:reputation       0.991 
+       29 4:reputation 4:reputation       0.991 
+       30 4:reputation 4:reputation       0.991 
+       31 4:reputation 4:reputation       0.991 
+       32 4:reputation   1:course   +   0.991 
+       33    2:other     3:home   +   0.666 
+       34    2:other 4:reputation   +   0.991 
+       35    2:other   1:course   +   0.991 
+        1   1:course 4:reputation   +   0.991 
+        2   1:course    2:other   +   0.333 
+        3   1:course   1:course       0.991 
+        4   1:course 4:reputation   +   0.991 
+        5   1:course 4:reputation   +   0.991 
+        6   1:course 4:reputation   +   0.991 
+        7   1:course   1:course       0.991 
+        8   1:course     3:home   +   0.991 
+        9   1:course   1:course       0.995 
+       10   1:course   1:course       0.991 
+       11   1:course 4:reputation   +   0.991 
+       12   1:course   1:course       0.498 
+       13   1:course     3:home   +   0.995 
+       14     3:home   1:course   +   0.991 
+       15     3:home 4:reputation   +   0.991 
+       16     3:home   1:course   +   0.498 
+       17     3:home 4:reputation   +   0.991 
+       18     3:home   1:course   +   0.665 
+       19     3:home   1:course   +   0.665 
+       20     3:home     3:home       0.991 
+       21     3:home 4:reputation   +   0.991 
+       22     3:home   1:course   +   0.991 
+       23     3:home   1:course   +   0.991 
+       24 4:reputation     3:home   +   0.991 
+       25 4:reputation     3:home   +   0.991 
+       26 4:reputation   1:course   +   0.991 
+       27 4:reputation 4:reputation       0.991 
+       28 4:reputation   1:course   +   0.991 
+       29 4:reputation 4:reputation       0.991 
+       30 4:reputation     3:home   +   0.748 
+       31 4:reputation   1:course   +   0.991 
+       32 4:reputation   1:course   +   0.991 
+       33    2:other 4:reputation   +   0.991 
+       34    2:other   1:course   +   0.498 
+       35    2:other 4:reputation   +   0.991 
+        1   1:course   1:course       0.991 
+        2   1:course   1:course       0.991 
+        3   1:course   1:course       0.991 
+        4   1:course   1:course       0.571 
+        5   1:course   1:course       0.665 
+        6   1:course     3:home   +   0.991 
+        7   1:course   1:course       0.991 
+        8   1:course   1:course       0.991 
+        9   1:course 4:reputation   +   0.499 
+       10   1:course   1:course       0.498 
+       11   1:course   1:course       0.991 
+       12   1:course   1:course       0.333 
+       13   1:course     3:home   +   0.991 
+       14     3:home   1:course   +   0.991 
+       15     3:home   1:course   +   0.498 
+       16     3:home   1:course   +   0.333 
+       17     3:home 4:reputation   +   0.499 
+       18     3:home   1:course   +   0.333 
+       19     3:home     3:home       0.991 
+       20     3:home     3:home       0.991 
+       21     3:home   1:course   +   0.991 
+       22     3:home     3:home       0.995 
+       23     3:home   1:course   +   0.991 
+       24 4:reputation 4:reputation       0.991 
+       25 4:reputation     3:home   +   0.748 
+       26 4:reputation     3:home   +   0.991 
+       27 4:reputation   1:course   +   0.991 
+       28 4:reputation    2:other   +   0.498 
+       29 4:reputation     3:home   +   0.991 
+       30 4:reputation     3:home   +   0.991 
+       31 4:reputation 4:reputation       0.991 
+       32 4:reputation   1:course   +   0.995 
+       33    2:other     3:home   +   0.991 
+       34    2:other 4:reputation   +   0.991 
+       35    2:other    2:other       0.991 
+        1   1:course 4:reputation   +   0.991 
+        2   1:course   1:course       0.498 
+        3   1:course   1:course       0.991 
+        4   1:course     3:home   +   0.995 
+        5   1:course     3:home   +   0.991 
+        6   1:course   1:course       0.991 
+        7   1:course   1:course       0.991 
+        8   1:course   1:course       0.498 
+        9   1:course   1:course       0.991 
+       10   1:course   1:course       0.991 
+       11   1:course     3:home   +   0.991 
+       12   1:course   1:course       0.498 
+       13   1:course     3:home   +   0.991 
+       14     3:home   1:course   +   0.991 
+       15     3:home   1:course   +   0.991 
+       16     3:home 4:reputation   +   0.991 
+       17     3:home     3:home       0.991 
+       18     3:home     3:home       0.991 
+       19     3:home   1:course   +   0.991 
+       20     3:home   1:course   +   0.995 
+       21     3:home 4:reputation   +   0.991 
+       22     3:home     3:home       0.991 
+       23 4:reputation     3:home   +   0.995 
+       24 4:reputation   1:course   +   0.991 
+       25 4:reputation 4:reputation       0.665 
+       26 4:reputation   1:course   +   0.498 
+       27 4:reputation   1:course   +   0.498 
+       28 4:reputation 4:reputation       0.991 
+       29 4:reputation   1:course   +   0.991 
+       30 4:reputation    2:other   +   0.991 
+       31 4:reputation     3:home   +   0.991 
+       32 4:reputation 4:reputation       0.991 
+       33    2:other   1:course   +   0.991 
+       34    2:other    2:other       0.991 
+       35    2:other   1:course   +   0.991 
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         121               34.4729 %
+Incorrectly Classified Instances       230               65.5271 %
+Kappa statistic                          0.0544
+Total Number of Instances              351     
+
+=== Detailed Accuracy By Class ===
+
+                 Class
+                 course
+                 other
+                 home
+                 reputation
+Weighted Avg.    
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 63  6 35 28 |  a = course
+  8  5  4  9 |  b = other
+ 51  2 28 16 |  c = home
+ 35 10 26 25 |  d = reputation
+

@@ -1,0 +1,55 @@
+@relation students
+@attribute school {'GP'}
+@attribute sex {'F', 'M'}
+@attribute age numeric
+@attribute address {'U', 'R'}
+@attribute famsize {'GT3', 'LE3'}
+@attribute Pstatus {'A', 'T'}
+@attribute Medu numeric
+@attribute Fedu numeric
+@attribute Mjob {'at_home', 'health', 'other', 'services', 'teacher'}
+@attribute Fjob {'teacher', 'other', 'services', 'health', 'at_home'}
+@attribute reason {'course', 'other', 'home', 'reputation'}
+@attribute guardian {'mother', 'father', 'other'}
+@attribute traveltime numeric
+@attribute studytime numeric
+@attribute failures numeric
+@attribute schoolsup {'yes', 'no'}
+@attribute famsup {'no', 'yes'}
+@attribute paid {'no', 'yes'}
+@attribute activities {'no', 'yes'}
+@attribute nursery {'yes', 'no'}
+@attribute higher {'yes', 'no'}
+@attribute internet {'no', 'yes'}
+@attribute romantic {'no', 'yes'}
+@attribute famrel numeric
+@attribute freetime numeric
+@attribute goout numeric
+@attribute Dalc numeric
+@attribute Walc numeric
+@attribute health numeric
+@attribute absences numeric
+@attribute G1 numeric
+@attribute G2 numeric
+@attribute G3 numeric
+
+@data
+GP,M,20,U,GT3,A,3,2,services,other,course,other,1,1,2,no,no,?,yes,yes,yes,no,no,5,5,3,1,1,5,0,14,15,15
+GP,M,19,R,GT3,T,3,3,other,services,reputation,father,1,2,0,no,no,?,yes,yes,yes,no,yes,4,5,3,1,2,5,0,10,10,11
+GP,F,18,U,GT3,T,1,4,other,teacher,home,mother,1,2,0,yes,yes,?,no,no,yes,no,yes,3,4,4,1,2,5,2,10,10,11
+GP,F,18,U,GT3,T,2,1,services,other,course,mother,2,2,0,no,yes,?,yes,yes,yes,yes,no,5,3,3,1,2,1,2,12,12,15
+GP,F,17,U,GT3,T,2,3,other,other,course,father,2,2,0,no,no,?,yes,yes,yes,yes,yes,4,2,1,1,1,3,2,11,12,14
+GP,F,17,R,GT3,T,4,4,teacher,teacher,course,mother,1,1,0,no,no,?,yes,yes,yes,yes,no,4,4,4,1,1,5,2,15,16,17
+GP,F,18,U,GT3,T,4,3,other,other,course,mother,1,3,0,no,yes,?,yes,yes,yes,yes,yes,4,3,4,1,1,5,2,14,15,17
+GP,F,18,U,LE3,T,4,3,health,services,course,mother,2,1,0,no,yes,?,no,yes,yes,yes,no,3,2,4,1,4,1,8,12,12,15
+GP,F,17,R,GT3,T,3,4,at_home,services,course,father,1,3,0,no,yes,?,yes,no,yes,yes,no,4,3,4,2,5,5,2,15,15,17
+GP,F,18,U,GT3,T,3,3,at_home,other,course,father,1,2,0,no,yes,?,no,yes,yes,yes,no,4,1,4,1,1,3,8,11,12,14
+GP,M,19,U,GT3,T,4,2,health,other,course,mother,2,2,0,no,yes,?,yes,yes,yes,yes,yes,5,4,4,1,1,1,9,11,10,10
+GP,F,18,U,GT3,T,4,4,teacher,other,course,mother,1,2,0,no,yes,?,no,yes,yes,yes,no,4,4,4,3,3,5,0,12,11,13
+GP,F,18,U,GT3,T,3,4,other,other,course,mother,1,1,0,no,yes,?,yes,yes,yes,yes,yes,5,4,4,1,1,1,4,11,12,14
+GP,F,17,U,GT3,T,4,4,health,health,course,mother,1,1,0,no,no,?,yes,yes,yes,yes,no,5,3,4,1,2,5,2,14,15,17
+GP,F,17,U,GT3,A,4,3,services,services,course,mother,1,2,0,no,yes,?,no,yes,yes,yes,yes,5,2,2,1,2,5,14,15,14,17
+GP,F,17,U,LE3,A,3,3,services,other,home,mother,1,2,0,yes,yes,?,no,yes,yes,yes,no,5,3,3,1,1,5,0,12,12,13
+GP,F,17,U,LE3,T,2,1,other,other,home,father,1,2,0,no,no,?,yes,yes,yes,yes,no,4,2,3,2,2,2,2,11,12,14
+GP,M,18,U,LE3,T,4,4,other,other,reputation,father,1,1,0,no,yes,?,no,yes,yes,yes,no,4,2,5,3,4,5,2,8,9,11
+GP,F,19,U,GT3,T,1,1,other,other,course,other,3,3,0,no,no,?,yes,yes,no,no,yes,1,5,5,4,3,5,12,10,10,11
